@@ -1,0 +1,52 @@
+.title{
+    padding-left: 1%;
+}
+
+.list-group{
+    width:30%;
+     float:left
+}
+.search{
+    width:68%;
+    height:50px;
+    float:right;
+    margin-left: 2%
+}
+.result{
+    width:68%;
+    height:600px;
+    float:right;
+    margin-left: 2%
+}
+.lab{
+    width:8%;
+}
+.select{
+    width:8%;
+}
+.dis{
+    width:7%;
+    margin-left: 3%;
+}
+#fyear{
+    width:5%;
+    margin-left: 3%;
+}
+#lyear{
+    width:3%;
+    margin-left: 1%;
+}
+.select-c{
+    width:18%;
+}
+.select-d{
+    width:20%;
+}
+.t{
+    width:90%;
+    border-color: black;
+    text-align: center;
+}
+.h{
+    text-align: center;
+}

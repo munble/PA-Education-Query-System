@@ -1,0 +1,70 @@
+.search{
+    height:100px;
+}
+.result{
+    width:80%;
+    height:500px;
+    float:right
+}
+.lab{
+    width:8%;
+}
+.select{
+    width:8%;
+}
+#fyear{
+    width:5%;
+    margin-left: 3%;
+}
+#fyear-c{
+    width: 5%;
+}
+#lyear{
+    width:3%;
+    margin-left: 1%;
+}
+.btn{
+    width:200px;
+}
+.query{
+    width:95%;
+    float:left;
+}
+.t{
+    width:100%;
+    border-color: black;
+    text-align: center;
+}
+.h{
+    text-align: center;
+}
+#sub{
+    width:7%;
+    margin-left: 3%;
+}
+.dis{
+    width:7%;
+    margin-left: 3%;
+}
+.select-c{
+    width: 11%;
+    margin-right: 5%;
+}
+.btn-group-c{
+    width:90%;
+}
+.btn-c{
+    width:14%;
+}
+.dt{
+    width:100%;
+    border-color: black;
+    text-align: center;
+}
+.search-ex{
+    height:50px;
+}
+.cq{
+    width: 50%;
+}
+

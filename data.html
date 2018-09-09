@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PA Education system</title>
+        <link rel="stylesheet" href="css/edu.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 引入 Bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        
+        <!--        nav-tabs-->
+        <ul class="nav nav-tabs">
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="data.html">Data Statistics</a></li>
+        <li role="presentation"><a href="graph.html">Queries</a></li>
+        </ul>
+        
+    </head>
+    
+    <body>
+        <h1 class="title">PA Education System</h1>
+        
+        <div class="list-group">
+        <a href="data.html" class="list-group-item active">
+            <h4 class="list-group-item-heading">
+            School
+            </h4>
+        </a>
+        <a href="teacher.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Teachers 
+        </h4>
+        </a>
+        <a href="score.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Test Score
+        </h4>
+        </a>          
+        </div>  
+        
+        
+        <div class="search">
+            <label>Introduction about School data</label>
+            <br>
+            <br>
+            <label>Queries:</label>
+            <br>
+            <label>Which schools pays the highest salary in a selected county? To support teachers looking for jobs.
+            </label>
+            <br>
+            <label>In a selected public school district, subject which schools had the top 20 highest Keystone test scores for recent years?</label>
+            <br>
+            <br>
+            <label>Education level data:</label>
+                <table style="width: 50%; text-align: center;" border="1">
+                <tr>
+                <th style="text-align: center;">Education Level</th>
+                <th style="text-align: center;">Grade</th>
+                </tr>
+                <tr>
+                <td> Less than high school graduate</td>
+                <td> 1</td>
+                </tr>
+                <tr>
+                <td> High school graduate</td>
+                <td> 2</td>
+                </tr>
+                <tr>
+                <td> Some college, less than bachelor's degree</td>
+                <td> 3</td>
+                </tr>
+                <tr>
+                <td> Bachelor's degree (includes master's equivalency)</td>
+                <td> 4</td>
+                </tr>
+                <tr>
+                <td> Master's degree</td>
+                <td> 5</td>
+                </tr>
+                <tr>
+                <td> Doctor's degree</td>
+                <td> 6</td>
+                </tr>
+                </table>
+            <br>
+            <label>Test Score:</label>
+        </div>
+
+      
+        <div class="list-group">
+        <a href="district.html" class="list-group-item active">
+        <h4 class="list-group-item-heading">
+            District
+        </h4>
+        </a>
+        <a href="dropout.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Dropout
+        </h4>
+        </a>
+        <a href="tuition.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Tuition
+        </h4>
+        </a>
+        <a href="revenue.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Revenues
+        </h4>
+        </a>
+        <a href="expenditure.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Expenditure
+        </h4>
+        </a>
+            
+        </div>
+        <div class="list-group">
+        <a href="county.html" class="list-group-item active">
+        <h4 class="list-group-item-heading">
+            County
+        </h4>
+        </a>
+        <a href="crime.php" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            Crime
+        </h4>
+        </a>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- 包括所有已编译的插件 -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
